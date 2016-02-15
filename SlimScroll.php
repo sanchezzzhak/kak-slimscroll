@@ -11,7 +11,7 @@ use yii\web\JsExpression;
  */
 class SlimScroll extends \yii\base\Widget
 {
-    const JS_KEY = 'kak/slimScroll';
+    const JS_KEY = 'kak/slimscroll';
 
     const EVENT_SLIMSCROLL = 'slimscroll';
     const EVENT_SLIMSCROLLING = 'slimscrolling';
@@ -53,7 +53,7 @@ class SlimScroll extends \yii\base\Widget
             $this->options['id'] =  $this->id;
         }
 
-        echo Html::beginTag($this->tag, $this->option);
+        echo Html::beginTag($this->tag, $this->options);
     }
 
     public function run()
