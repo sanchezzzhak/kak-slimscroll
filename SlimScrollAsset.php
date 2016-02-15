@@ -1,5 +1,5 @@
 <?php
-namespace kak\widgets\panel;
+namespace kak\widgets\slimscroll;
 
 use yii\web\AssetBundle;
 
