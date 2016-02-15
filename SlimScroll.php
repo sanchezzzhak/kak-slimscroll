@@ -33,7 +33,7 @@ class SlimScroll extends \yii\base\Widget
      * Js Events
      * ```php
      *   SlimScrololl::begin([
-     *      'events' => [ SlimScroll::EVENT_SLIMSCROLL => new JsExpression('function(e,pos){}' ]
+     *      'events' => [ SlimScroll::EVENT_SLIMSCROLLING => new JsExpression('function(e,pos){}') ]
      *   ]);
      * ```
      * @var array
