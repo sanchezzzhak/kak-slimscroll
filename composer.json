@@ -2,7 +2,7 @@
     "name": "kak/slimscroll",
     "description": "Yii2 slimscroll widget",
     "type": "yii2-extension",
-	"homepage": "https://github.com/sanchezzzhak/kak-panel",
+    "homepage": "https://github.com/sanchezzzhak/kak-panel",
     "keywords": ["yii2","slimscroll ","slimscroll for yii2" , "widget"],
     "license": "MIT",
     "authors": [
@@ -11,20 +11,18 @@
             "email": "sanchezzzhak@ya.ru"
         }
     ],
-	"require": {
-		"php":">=5.4.0",
-        "bower-asset/slimScroll": ">=1.3.3"
-
-	},
+    "require": {
+	"bower-asset/slimscroll": "*"
+    },
     "extra": {
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
         }
     },
-	"autoload": {
-		"psr-4": {
-			"kak\\widgets\\slimscroll\\": ""
-		}
+    "autoload": {
+	"psr-4": {
+		"kak\\widgets\\slimscroll\\": ""
 	}
+    }
 }
